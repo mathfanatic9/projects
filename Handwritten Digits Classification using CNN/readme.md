@@ -1,4 +1,4 @@
-# Handwritten Digits Classification using CNN -
+# Handwritten Digits Classification using CNN
 
 Overview:
 This project involves the classification of handwritten digits using a Convolutional Neural Network (CNN) model. The model is trained and evaluated on the MNIST dataset, which consists of 60,000 training images and 10,000 test images of handwritten digits.
