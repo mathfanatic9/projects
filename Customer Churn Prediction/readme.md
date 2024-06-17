@@ -13,8 +13,7 @@ Model Architecture:
 - Activation functions used are ReLU for hidden layers and sigmoid for the output layer.
 - The model is compiled with the Adam optimizer and binary cross-entropy loss function.
 
-Training:
-- The model is trained on the preprocessed training set for 100 epochs with a batch size of 10.
+Training: The model is trained on the preprocessed training set for 100 epochs with a batch size of 10.
 
 Evaluation:
 - Predictions are made on the test set, and a confusion matrix is created using seaborn for better visualization.
