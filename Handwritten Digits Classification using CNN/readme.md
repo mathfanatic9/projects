@@ -1,16 +1,23 @@
-# Handwritten Digits Classification using CNN 
+# Handwritten Digits Classification with ANN and CNN
 
-### Overview
-This project involves the classification of handwritten digits using a Convolutional Neural Network (CNN) model. The model is trained and evaluated on the MNIST dataset, which consists of 60,000 training images and 10,000 test images of handwritten digits.
+## Overview
+This project aims to classify handwritten digits using Artificial Neural Networks (ANN) and Convolutional Neural Networks (CNN) with the MNIST dataset.
 
-### Model Architecture
-The CNN model consists of an input layer, a convolutional layer with 30 filters of size 3x3, a max pooling layer, a flattening layer, and two dense layers. The final dense layer uses a sigmoid activation function to output the classification probabilities for each digit class.
+## Dataset
+The MNIST dataset contains 70,000 images of handwritten digits, each of 28x28 pixel resolution. The dataset is split into 60,000 training images and 10,000 test images.
 
-### Training
-The model is compiled with the Adam optimizer and sparse categorical crossentropy loss function. It is trained for 5 epochs, achieving an accuracy of approximately 99.49% on the training set.
+## Models
+- **ANN Model**: A simple neural network with one input layer, two hidden layers, and one output layer.
+- **CNN Model**: A convolutional neural network with convolutional layers, max pooling, and dense layers.
 
-### Evaluation
-Upon evaluation on the test set, the model achieves an accuracy of 98.59%, demonstrating its effectiveness in classifying handwritten digits.
+## Training
+The models are trained using the training set with normalized pixel values ranging between 0 and 1. The ANN model is trained for 25 epochs, and the CNN model for 5 epochs.
 
-### Usage
-To use this model, ensure you have TensorFlow and Keras installed. Load the MNIST dataset, preprocess the data by normalizing and reshaping it, and then compile and fit the model as described in the code snippets provided.
+## Evaluation
+The models' performance is evaluated using the test set. The accuracy and loss metrics are plotted to assess the models' learning progress.
+
+## Results
+The CNN model outperforms the ANN model, achieving an accuracy of over 98%, demonstrating its effectiveness in classifying handwritten digits.
+
+## Contributing
+Contributions to this project are welcome. Please fork the repository and submit a pull request.
