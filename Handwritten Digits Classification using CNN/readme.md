@@ -1,4 +1,4 @@
-# Handwritten Digits Classification with ANN and CNN
+# Handwritten Digits Recognition with ANN and CNN
 
 ### Overview
 This project aims to classify handwritten digits using Artificial Neural Networks (ANN) and Convolutional Neural Networks (CNN) with the MNIST dataset.
