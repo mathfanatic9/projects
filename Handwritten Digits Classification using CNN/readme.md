@@ -1,4 +1,4 @@
-![image](https://github.com/mathfanatic9/projects/assets/171547117/645166b0-2091-41cf-aa26-2e9ab4250999)# Handwritten Digits Classification with ANN and CNN
+# Handwritten Digits Classification with ANN and CNN
 
 ## Overview
 This project aims to classify handwritten digits using Artificial Neural Networks (ANN) and Convolutional Neural Networks (CNN) with the MNIST dataset.
