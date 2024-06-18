@@ -10,7 +10,7 @@ The dataset used is `wine quality dataset.csv`, which includes fundamental featu
 Data preprocessing steps include:
 - Handling null values.
 - Feature selection based on correlation.
-- Data normalization using `MinMaxScaler`.
+- Data normalization using MinMaxScaler.
 
 ### Model Training
 Several models were trained, including Logistic Regression, XGBoost, and SVC. Model performance was evaluated using ROC AUC scores.
