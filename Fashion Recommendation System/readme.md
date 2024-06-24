@@ -3,16 +3,18 @@
 ### Overview
 The Fashion Recommendation System is designed to provide similar fashion images based on a user-uploaded image. It leverages pre-trained deep learning models for feature extraction and K-Nearest Neighbors (KNN) for similarity search. Users can upload an image, and the system will recommend visually similar fashion items from the dataset which includes many categories such as shoes, hats, swimming caps, balls, bags, shorts, t-shirts, gym wear, water bottles, home wear, churidars, sarees and handbags.
 
+Dataset has been obtained from: https://www.kaggle.com/datasets/paramaggarwal/fashion-product-images-small
+
 ### Project Components
 
-1. **Feature Extraction (app.py):**
+1. 'Feature Extraction (app.py):'
    - Loads a pre-trained ResNet50 model pre-trained on ImageNet.
    - Removes the top layer and adds a GlobalMaxPooling2D layer.
    - Processes input images (located in the 'images' folder) and extracts features.
    - Normalizes the feature vectors.
    - Saves the feature vectors and corresponding filenames as pickle files ('embeddings.pkl' and 'filenames.pkl').
 
-2. **Similarity Search (test.py):**
+2. `Similarity Search (test.py):`
    - Loads the saved feature vectors and filenames.
    - Loads the ResNet50 model.
    - Preprocesses a test image and extracts its features.
