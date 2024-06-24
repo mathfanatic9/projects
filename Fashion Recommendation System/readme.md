@@ -7,7 +7,7 @@ Dataset has been obtained from: https://www.kaggle.com/datasets/paramaggarwal/fa
 
 ### Project Components
 
-1. 'Feature Extraction (app.py):'
+1. `Feature Extraction (app.py):`
    - Loads a pre-trained ResNet50 model pre-trained on ImageNet.
    - Removes the top layer and adds a GlobalMaxPooling2D layer.
    - Processes input images (located in the 'images' folder) and extracts features.
@@ -22,7 +22,7 @@ Dataset has been obtained from: https://www.kaggle.com/datasets/paramaggarwal/fa
    - Uses KNN to find the 5 most similar images.
    - Displays the similar images using OpenCV.
 
-3. **Web Application (main.py):**
+3. `Web Application (main.py):`
    - Utilizes Streamlit to create a user-friendly interface.
    - Allows users to upload an image.
    - Extracts features from the uploaded image.
