@@ -4,7 +4,7 @@ This project aims to perform sentiment analysis on tweets from the X platform (p
 
 ### Steps
 
-1. **Data Collection:** The Sentiment140 dataset is downloaded from Kaggle using the Kaggle API.
+1. **Data Collection:** The Sentiment140 dataset is downloaded from Kaggle using the Kaggle API (https://www.kaggle.com/datasets/kazanova/sentiment140).
 2. **Data Preprocessing:**
    - The tweets are extracted from the downloaded zip file.
    - The dataset is loaded into a pandas DataFrame and preprocessed:
