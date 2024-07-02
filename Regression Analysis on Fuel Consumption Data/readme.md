@@ -11,7 +11,7 @@ The dataset, `FuelConsumption.csv`, is a fuel consumption dataset which contains
 - `MODEL` e.g. ILX
 - `VEHICLE CLASS` e.g. SUV
 - `ENGINE SIZE` e.g. 4.7
-- `CYLINDERS e.g 6
+- `CYLINDERS` e.g 6
 - `TRANSMISSION` e.g. A6
 - `FUELTYPE` e.g. z
 - `FUEL CONSUMPTION in CITY(L/100 km)` e.g. 9.9
