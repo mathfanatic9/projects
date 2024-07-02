@@ -7,15 +7,15 @@ This project focuses on analyzing fuel consumption data to predict carbon dioxid
 
 ### Dataset
 The dataset, `FuelConsumption.csv`, is a fuel consumption dataset which contains model-specific fuel consumption ratings and estimated carbon dioxide emissions for new light-duty vehicles for retail sale in Canada. It is obtained from http://open.canada.ca/data/en/dataset/98f1a129-f628-4ce4-b24d-6f16bf24dd64 and includes the following attributes:
-- **MODELYEAR**: e.g., 2014
-- **MAKE**: e.g., Acura
-- **MODEL**: e.g., ILX
-- **VEHICLE CLASS**: e.g., SUV
-- **ENGINE SIZE**: e.g., 4.7
-- **CYLINDERS**: e.g., 6
-- **TRANSMISSION**: e.g., A6
-- **FUEL CONSUMPTION** in various metrics (L/100 km)
-- **CO2 EMISSIONS** (g/km)
+- `MODELYEAR`: e.g., 2014
+- `MAKE`: e.g., Acura
+- `MODEL`: e.g., ILX
+- `VEHICLE CLASS`: e.g., SUV
+- `ENGINE SIZE`: e.g., 4.7
+- `CYLINDERS`: e.g., 6
+- `TRANSMISSION`: e.g., A6
+- `FUEL CONSUMPTION` in various metrics (L/100 km)
+- `CO2 EMISSIONS` (g/km)
 
 ### Usage
 Perform data loading, exploration, visualization, model training, and evaluation.
