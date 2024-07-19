@@ -20,8 +20,5 @@ This project aims to predict stock prices using a Long Short-Term Memory (LSTM) 
 - The trained model is used to predict stock prices for the year 2017.
 - Predictions are visualized alongside the actual stock prices for comparison.
 
-### Usage
-To run the project, ensure you have the required libraries installed, including numpy, matplotlib, pandas, sklearn, and TensorFlow. Then, execute the Jupyter Notebook to train the model and visualize the results.
-
 ### License
 This project is open-sourced under the MIT license.
