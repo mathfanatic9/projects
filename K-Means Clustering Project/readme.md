@@ -1,4 +1,4 @@
-# k-Means Clustering Project on different applications
+# k-Means Clustering Project for different applications
 
 ### Overview
 This project demonstrates the use of k-Means clustering, one of the simplest and widely used clustering algorithms in data science. It includes two main applications: clustering a randomly generated dataset and customer segmentation.
