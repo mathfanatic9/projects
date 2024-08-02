@@ -4,9 +4,9 @@ This project demonstrates the use of **Support Vector Machines (SVM)** to classi
 
 ## Objectives
 
-- **Use scikit-learn** to implement SVM for classification.
-- **Train and evaluate** the model using human cell records.
-- **Compare different kernel functions** to determine the best performance.
+- To use scikit-learn to implement SVM for classification.
+- To train and evaluate the model using human cell records.
+- To compare different kernel functions to determine the best performance.
 
 ## Dataset
 
