@@ -14,5 +14,5 @@ This project aims to forecast future sales of champagne using ARIMA and SARIMAX 
 - The ARIMA and SARIMAX models were able to forecast future sales with reasonable accuracy.
 - Visualizations of the forecasts are included in the notebook.
 
-## License
+### License
 This project is licensed under the MIT License.
