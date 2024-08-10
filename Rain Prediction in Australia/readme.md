@@ -18,6 +18,9 @@ Evaluation metrics include:
 - **Jaccard Index**
 - **F1-Score**
 - **Log Loss** (for Logistic Regression)
+- **Mean Absolute Error** (MAE)
+- **Mean Squared Error** (MSE)
+- **R2-Score**
 
 ### Results
 The models were evaluated based on their performance metrics. The Logistic Regression model achieved the highest accuracy score of 83.82%. It performed the best overall with the highest accuracy and F1-Score. KNN also showed strong performance with a high accuracy score.
