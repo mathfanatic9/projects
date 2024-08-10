@@ -3,7 +3,7 @@
 This project aims to predict if it will rain tomorrow in various locations across Australia using historical weather data. 
 
 ### About the Data
-The dataset is sourced from the Australian Government's Bureau of Meteorology and the latest data can be gathered from http://www.bom.gov.au/climate/dwo/. The dataset to be used has extra columns like 'RainToday' and our target is 'RainTomorrow', which was gathered from the Rattle at https://bitbucket.org/kayontoga/rattle/src/master/data/weatherAUS.RData. Overall it contains daily weather observations from 2008 to 2017, including metrics such as temperature, rainfall, humidity, and wind speed. The target variable is `RainTomorrow`, indicating whether it will rain the next day.The weatherAUS.csv dataset includes the following fields with the column definitions gathered from http://www.bom.gov.au/climate/dwo/IDCJDW0000.shtml:
+The dataset is sourced from the Australian Government's Bureau of Meteorology and the latest data can be gathered from http://www.bom.gov.au/climate/dwo/. The dataset to be used has extra columns like 'RainToday' and our target is 'RainTomorrow', which was gathered from the Rattle at https://bitbucket.org/kayontoga/rattle/src/master/data/weatherAUS.RData. Overall it contains daily weather observations from 2008 to 2017, including metrics such as temperature, rainfall, humidity, and wind speed. The target variable is `RainTomorrow`, indicating whether or not it will rain the next day.The weatherAUS.csv dataset includes the following fields with the column definitions gathered from http://www.bom.gov.au/climate/dwo/IDCJDW0000.shtml:
 
 | **Field**       | **Description**                                  | **Unit**         | **Type**   |
 |-----------------|--------------------------------------------------|------------------|------------|
@@ -49,7 +49,7 @@ Evaluation metrics include:
 - **R2-Score**
 
 ### Results
-The models were evaluated based on their performance metrics. The Logistic Regression model achieved the highest accuracy score of 83.82%. It performed the best overall with the highest accuracy and F1-Score. KNN also showed strong performance with a high accuracy score.
+The models were evaluated based on their performance metrics. The Logistic Regression seems to be the most effective model for this dataset.
 
 ### License
 This project is licensed under the MIT License.
