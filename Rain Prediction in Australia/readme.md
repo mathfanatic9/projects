@@ -18,8 +18,8 @@ Evaluation metrics include:
 - **Jaccard Index**
 - **F1-Score**
 - **Log Loss** (for Logistic Regression)
-- **Mean Absolute Error** (MAE)
-- **Mean Squared Error** (MSE)
+- **Mean Absolute Error (MAE)**
+- **Mean Squared Error (MSE)**
 - **R2-Score**
 
 ### Results
