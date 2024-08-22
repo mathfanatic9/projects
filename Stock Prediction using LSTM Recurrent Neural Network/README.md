@@ -1,7 +1,7 @@
 # Stock Prediction using LSTM Recurrent Neural Network
 
 ### Overview
-This project aims to predict stock prices using a Long Short-Term Memory (LSTM) Recurrent Neural Network (RNN). The model is trained on historical stock price data and is capable of making predictions based on patterns observed in the past.
+This project aims to predict stock prices using Long Short-Term Memory (LSTM) Recurrent Neural Network (RNN). The model is trained on historical stock price data and is capable of making predictions based on patterns observed in the past.
 
 ### Data Preprocessing
 - Data is scaled using MinMaxScaler to normalize the values within a range of 0 to 1.
